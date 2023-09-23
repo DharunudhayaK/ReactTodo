@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+  padding: 10px;
+  width: 1000px;
+  margin: auto;
+}
+
+.outer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(168, 142, 142);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.outer:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.innerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  width: 800px;
+}
+
+.btn {
+  height: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.editBtn {
+  padding: 10px;
+  width: 80px;
+  position: relative;
+  top: 50px;
+  background-color: rgb(8, 134, 230);
+  border: 1px solid rgb(8, 134, 230);
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.editBtn:hover{
+  border: 4px solid rgb(0, 145, 255);
+}
+
+.delBtn {
+  padding: 10px;
+  width: 80px;
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: #fff;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.delBtn:hover{
+  border: 2px solid red;
+}
+
+.popup {
+  padding: 25px;
+  width: 30%;
+  visibility: visible;
+  position: fixed;
+  border: 1px solid #fff;
+  top: 10%;
+  background-color: #fff;
+  left: 35%;
+  border-radius: 6px;
+}
+
+.popupBg {
+  position: fixed;
+  visibility: visible;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.popupNav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+}
+
+.closeBtn {
+  position: relative;
+  top: 15px;
+  font-size: 27px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 7px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.closeBtn:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.lineLabel {
+  border: 1px solid lightgray;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.label {
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+.inputBox {
+  padding: 13px;
+  border: 1px solid lightslategray;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.popupAdd {
+  padding: 12px;
+  float: right;
+  width: 100px;
+  border: 1px solid rgb(1, 149, 240);
+  background-color: rgb(1, 149, 240);
+  color: #fff;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.another{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navaddBtn{
+  padding: 12px;
+  float: right;
+  width: 150px;
+  background-color: #fff;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  border: 2px solid rgb(1, 149, 240);
+  color: rgb(1, 149, 240);
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 23px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "Blog 1",
+      "body": "Javascript",
+      "id": 1
+    },
+    {
+      "title": "Blog 2",
+      "body": "React Js",
+      "id": 2
+    },
+    {
+      "title": "Blog 3",
+      "body": "React Redux",
+      "id": 3
+    }
+  ]
+}
